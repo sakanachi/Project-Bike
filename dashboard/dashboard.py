@@ -21,7 +21,7 @@ min_date = all_df["dteday"].min()
 max_date = all_df["dteday"].max()
 
 with st.sidebar:
-    st.image("logo.png")
+    st.image("https://raw.githubusercontent.com/sakanachi/Project-Bike/main/dashboard/logo.png?token=GHSAT0AAAAAACPFM67LGZFY3MTZXSB4Y2POZPICL7A")
     
     # Mengambil tanggal
     selected_date = st.date_input(
