@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 warnings.filterwarnings("ignore", category=UserWarning)
 
 
-all_df = pd.read_csv("hour.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/sakanachi/Project-Bike/main/dashboard/hour.csv?token=GHSAT0AAAAAACPFM67KC4TX23NFBKMYXR64ZPICHOA")
 datetime_columns = ["dteday"]
 for column in datetime_columns:
     all_df[column] = pd.to_datetime(all_df[column]).dt.date
